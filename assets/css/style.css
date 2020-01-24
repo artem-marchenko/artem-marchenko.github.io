@@ -1498,6 +1498,12 @@ template {
     color: #999999;
 }
 
+@media screen and (max-width: 575px) {
+    .reviews__text {
+        padding: 0 20px;
+    }
+}
+
 .reviews__author {
     font-family: 'Kaushan Script', cursive;
     font-size: 24px;
@@ -1525,7 +1531,19 @@ template {
 
 @media screen and (max-width: 575px) {
     .reviews__author:before {
-        left: 25%;
+        left: 40px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .reviews__author:before {
+        left: 20px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .reviews__author:before {
+        left: 0;
     }
 }
 
@@ -1988,6 +2006,7 @@ template {
 
 .review {
     position: relative;
+    width: 100%;
 }
 
 .review__arrow,
@@ -2034,7 +2053,14 @@ template {
 }
 
 .review__slider {
-    padding: 100px 70px;
+    width: 100%;
+}
+
+@media screen and (max-width: 575px) {
+    .review__slider {
+        padding: 50px 70px;
+        width: 100%;
+    }
 }
 
 .slick-slide:focus {
@@ -2048,6 +2074,7 @@ template {
     justify-content: space-between;
     -webkit-box-align: center;
     align-items: center;
+    width: 100%;
 }
 
 @media screen and (max-width: 575px) {
@@ -2055,7 +2082,7 @@ template {
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
         flex-direction: column;
-        padding: 30px;
+        padding: 0;
     }
 }
 
