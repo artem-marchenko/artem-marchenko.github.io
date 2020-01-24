@@ -54,7 +54,7 @@ li {
 
 .button {
     padding: 10px 25px;
-    margin: 0 10px;
+    margin: 10px 10px;
     color: white;
     transition: 0.3s;
     background: #00897b;
@@ -266,6 +266,7 @@ div[filter]:hover .text {
 }
 
 .team {
+    display: flex;
     padding-top: 155px;
     padding-bottom: 125px;
     color: black;
@@ -311,7 +312,7 @@ div[filter]:hover .text {
 
 .team img {
     margin: 0 auto;
-    max-width: 340px;
+    max-width: 300px;
 }
 
 .multiple-items {
